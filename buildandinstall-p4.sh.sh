@@ -38,7 +38,7 @@ cd install
 bash ../travis/install-thrift.sh
 bash ../travis/install-nanomsg.sh
 sudo ldconfig
-cd ../..
+cd ../../..
 
 # --- PI/P4Runtime --- #
 cd  /home/cxy/PI
@@ -49,7 +49,7 @@ sudo ldconfig
 cd ..
 
 # --- Bmv2 --- #
-cd /home/cxy/behavioral-model
+cd behavioral-model
 ./autogen.sh
 ./configure --enable-debugger --with-pi
 make -j${NUM_CORES}

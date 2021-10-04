@@ -41,7 +41,7 @@ sudo ldconfig
 cd ../../..
 
 # --- PI/P4Runtime --- #
-cd  /home/cxy/PI
+cd  PI
 ./configure --with-proto
 make -j${NUM_CORES}
 sudo make install

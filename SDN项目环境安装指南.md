@@ -16,9 +16,13 @@ Ubuntu 16.04，硬盘 > 20G，内存 > 4G。
 
 2.  编译 P4C、PI、BMV2
 
-    执行 `bash ./install-P4.sh`。
+    执行 `bash ./download-p4.sh`。
 
     本过程根据实际网速和电脑性能的差异而有较大变化，预计完成时间在 40min 左右。如果网速太慢，请尝试开启 VPN。
+    
+    执行 `bash ./buildandinstall-p4.sh`。 
+    
+    如果出现系统不兼容的提示，请再次运行。
 
 3. 检查是否安装成功
 
